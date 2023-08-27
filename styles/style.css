@@ -1,0 +1,30 @@
+* {
+    margine: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    background: #FFF8F3;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+
+.logo a {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1.2;
+    text-decoration: none;
+}
+
+.inside-logo{
+    color: #FD6E0A;
+}
+
