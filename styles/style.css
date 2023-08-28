@@ -1,26 +1,24 @@
 * {
     margine: 0;
     padding: 0;
-
-}
-
-
-body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 
 header {
     background: #FFF8F3;
-    margin: 0px 0px 10px 0px;
-    padding: 20px 10px;
+    margin: 0px;
+    padding: 0px;
+
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 35px;
+    padding: 10px 35px;
 }
 
 
@@ -79,7 +77,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding:50px 0px;
+    padding: 8px 8px 0px;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner-content {
@@ -115,27 +116,19 @@ h3 {
 }
 
 
-.c-btn{
+.c-btn {
     color: #FD6E0A;
     background: transparent;
     border: 2px solid #FD6E0A;
     margin-left: 15px;
 }
 
-.c-btn:hover{
+.c-btn:hover {
     color: #FFF8F3;
     background: #FD6E0A;
 }
 
-.banner-img {
-    position: relative;
-}
 
-.banner-img .persor{
-    position: absolute;
-}
-
-.banner-img .bg-img{
-    position: absolute;
-    justify-content: right;
+.banner-img .persor {
+    width: 584px;
 }
